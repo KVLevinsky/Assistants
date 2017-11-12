@@ -58,6 +58,8 @@
     <Compile Include="FormELA.Designer.cs">
       <DependentUpon>FormELA.cs</DependentUpon>
     </Compile>
+    <Compile Include="OnDataLoadEventArgs.cs" />
+    <Compile Include="OnKernelModeChangedEventArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormELA.resx">
