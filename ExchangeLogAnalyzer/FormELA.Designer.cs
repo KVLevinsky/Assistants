@@ -94,9 +94,11 @@
             // 
             // lvData
             // 
+            this.lvData.AllowColumnReorder = true;
             this.lvData.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvData.FullRowSelect = true;
             this.lvData.GridLines = true;
+            this.lvData.HideSelection = false;
             this.lvData.Location = new System.Drawing.Point(3, 3);
             this.lvData.Name = "lvData";
             this.lvData.Size = new System.Drawing.Size(770, 484);
@@ -123,7 +125,7 @@
             this.tpMain.Padding = new System.Windows.Forms.Padding(3);
             this.tpMain.Size = new System.Drawing.Size(776, 490);
             this.tpMain.TabIndex = 0;
-            this.tpMain.Text = "Журнал";
+            this.tpMain.Text = "Log";
             this.tpMain.UseVisualStyleBackColor = true;
             // 
             // tpStatistics
@@ -133,7 +135,7 @@
             this.tpStatistics.Padding = new System.Windows.Forms.Padding(3);
             this.tpStatistics.Size = new System.Drawing.Size(776, 490);
             this.tpStatistics.TabIndex = 1;
-            this.tpStatistics.Text = "Статистика";
+            this.tpStatistics.Text = "Stat";
             this.tpStatistics.UseVisualStyleBackColor = true;
             // 
             // FormELA

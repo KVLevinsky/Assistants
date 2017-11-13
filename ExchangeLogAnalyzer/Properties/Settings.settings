@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="SourcePaths" Type="System.String" Scope="User">
-      <Value Profile="(Default)">"\\srvmail-ht1\c$\Program Files\Microsoft\Exchange Server\V14\TransportRoles\Logs\AgentLog\|\\srvmail-ht2\c$\Program Files\Microsoft\Exchange Server\V14\TransportRoles\Logs\AgentLog\"</Value>
+      <Value Profile="(Default)">\\srvmail-ht1\c$\Program Files\Microsoft\Exchange Server\V14\TransportRoles\Logs\AgentLog\|\\srvmail-ht2\c$\Program Files\Microsoft\Exchange Server\V14\TransportRoles\Logs\AgentLog\</Value>
     </Setting>
   </Settings>
 </SettingsFile>

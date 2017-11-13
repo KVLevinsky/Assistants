@@ -25,9 +25,9 @@ namespace ExchangeLogAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\"\\\\srvmail-ht1\\c$\\Program Files\\Microsoft\\Exchange Server\\V14\\TransportRoles\\Logs" +
-            "\\AgentLog\\|\\\\srvmail-ht2\\c$\\Program Files\\Microsoft\\Exchange Server\\V14\\Transpor" +
-            "tRoles\\Logs\\AgentLog\\\"")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\\\srvmail-ht1\\c$\\Program Files\\Microsoft\\Exchange Server\\V14\\TransportRoles\\Logs\\" +
+            "AgentLog\\|\\\\srvmail-ht2\\c$\\Program Files\\Microsoft\\Exchange Server\\V14\\Transport" +
+            "Roles\\Logs\\AgentLog\\")]
         public string SourcePaths {
             get {
                 return ((string)(this["SourcePaths"]));
